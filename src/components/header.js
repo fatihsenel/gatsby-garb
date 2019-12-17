@@ -4,7 +4,7 @@ import React from "react"
 
 import gatsbyLogo from "../images/gatsby-icon.png"
 
-const isActive = ([isCurrent]) => {
+const isActive = ({ isCurrent }) => {
   return { className: isCurrent ? "active" : "navlink" }
 }
 
